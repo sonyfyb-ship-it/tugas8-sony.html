@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sony's work</title>
+    <style>
+.move-box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 209, 149);
+  margin: 40px auto;
+  position: relative;
+  border-radius: 200px;
+
+  animation: slide 5s infinite alternate ease-in-out;
+}
+
+
+@keyframes slide {
+  0% {
+    left: 600px;                 
+    background-color: rgb(245, 137, 49); 
+  }
+  100% {
+    left: -600px;
+    background-color: rgb(253, 227, 192);
+  }
+}
+    .kotak {
+  width: 12500x;
+  max-width: 12500px;        
+  box-sizing: border-box;
+   background-color: #b65b11; 
+  padding: 12px 16px;               
+  border: 2px solid #f0d0ad; 
+}
+    .fade-text {
+      display: inline-block;
+      color: rgb(237, 240, 241);               
+      font-size: 20px;              
+      font-family: sans-serif;
+      font-weight: bold;
+      animation: jalanKeKiri 8s linear infinite;
+    }
+
+    @keyframes jalanKeKiri {
+      0% {
+        transform: translateX(100vw);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    </style>
+</head>
+<body>
+    <div class="move-box"></div>
+    <div class="kotak">
+     <div class="fade-text"> SONY PALING GANTENG SEDUNIA
+
+     </div>
+    </div>
+</body>
+</html>
